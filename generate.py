@@ -1,4 +1,5 @@
 import yaml
+import os
 
 def main():
     file = 'words.yaml'
@@ -20,7 +21,9 @@ def main():
         html += f"""<tr><td>{word['latin']}</td><td class="rashi" dir="rtl">{word['hebrew']}</td><td dir="rtl">{word['hebrew']}</td></tr>\n"""
     html += "</table>\n"
 
-    with open("index.html", "w") as fh:
+
+    os.makedirs("_site", exist_ok=True)
+    with open("_site/index.html", "w") as fh:
         fh.write(header)
         fh.write(html)
         fh.write(footer)
