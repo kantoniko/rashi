@@ -39,7 +39,7 @@
 - latin: ayre
   hebrew: איירה
 - latin: bagaje
-  hebrew: באגאזי
+  hebrew: באגאזﬞי
   comment: there should be a line a top the ז
 - latin: balabay
   hebrew: באלאבאיי
@@ -61,24 +61,24 @@
 - latin: enkontro
   hebrew: אינקונטרו
 - latin: echar
-  hebrew: איגאר
+  hebrew: איגﬞאר
   comment: there should be a line a top the ג
 - latin: chay
-  hebrew: גאיי
+  hebrew: גﬞאיי
   comment: there should be a line a top the ג
 - latin: charshi
   hebrew: גארשי
 - latin: deskorajar
-  hebrew: דיסקוראזאר
+  hebrew: דיסקוראזﬞאר
   comment: there should be a line a top the ז
 - latin: falta
-  hebrew: פאלטאר
+  hebrew: פﬞאלטאר
   comment: there should be a line a top the פ
 - latin: familiar
-  hebrew: פאמיליאר
+  hebrew: פﬞאמיליאר
   comment: there should be a line a top the פ
 - latin: famoza
-  hebrew: פאמוזה
+  hebrew: פﬞאמוזה
   comment: there should be a line a top the פ
 - latin: gato
   hebrew: גאטו
@@ -87,7 +87,7 @@
 - latin: haham
   hebrew: האהאם
 - latin: haftona
-  hebrew: האפטונה
+  hebrew: האפﬞטונה
   comment: there should be a line a top the פ
 - latin: haverim
   hebrew: האבﬞירים
@@ -95,5 +95,5 @@
 - latin: igual
   hebrew: איגואל
 - latin: imaje
-  hebrew: אימאזי
+  hebrew: אימאזﬞי
   comment: there should be a line a top the ז
