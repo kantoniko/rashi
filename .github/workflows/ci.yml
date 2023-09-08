@@ -15,7 +15,7 @@ concurrency:
 
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     name: Generate
 
