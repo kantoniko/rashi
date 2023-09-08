@@ -34,10 +34,12 @@
 - latin: altura
   hebrew: אלטורה
 - latin: arriva
-  hebrew: ארריבﬞה
+  hebrew: אריבﬞה
   comment: there should be a line a top the ב
-- latin: ayre
+  comment: In Rashi there is only on r
+- latin: aire
   hebrew: איירה
+  commment: We also have ayre, but Perez only has aire
 - latin: bagaje
   hebrew: באגאזﬞי
   comment: there should be a line a top the ז
@@ -71,7 +73,7 @@
 - latin: deskorajar
   hebrew: דיסקוראזﬞאר
   comment: there should be a line a top the ז
-- latin: falta
+- latin: faltar
   hebrew: פﬞאלטאר
   comment: there should be a line a top the פ
 - latin: familiar
