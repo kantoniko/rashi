@@ -14,9 +14,9 @@ An implementation of a transcriber for Ladino text between latin letter ortograp
 ## Development Environment
 
 ```
-$ virtualenv venv
-$ source venv/bin/activate
-$ pip install -r requirements.txt
+virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ```
