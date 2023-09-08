@@ -22,11 +22,26 @@
   hebrew: אילייאס
 
 - latin: ermano
-  hebrew: ארמנו
+  hebrew: אירמאנו
 - latin: abashar
   hebrew: אבאשאר
 - latin: madre
   hebrew: מאדרי
 - latin: padre
   hebrew: פאדרי
-
+- latin: ama
+  hebrew: אמה
+- latin: altura
+  hebrew: אלטורה
+- latin: arriva
+  hebrew: ארריבה
+  comment: there should be a line a top the ב
+- latin: ayre
+  hebrew: איירה
+- latin: bagaje
+  hebrew: באגאזי
+  comment: there should be a line a top the ז
+- latin: balabay
+  hebrew: באלאבאיי
+- latin: barka
+  hebrew: בארקה
