@@ -6,20 +6,20 @@
   hebrew: איל
 - latin: eya
   hebrew: אילייה
-- latin: eya
-  hebrew: אילייה
 - latin: mozotros
   hebrew: מוזוטרוס
 - latin: mozotras
   hebrew: מוזוטראס
 - latin: vozotros
-  hebrew: וזוטרוס
+  hebrew: בוזוטרוס
+  comment: there should be a line a top the leading ב
 - latin: vozotras
-  hebrew: וזוטראס
+  hebrew: בוזוטראס
+  comment: there should be a line a top the leading ב
 - latin: eyos
-  hebrew: איוס
+  hebrew: אילייוס
 - latin: eyas
-  hebrew: איאס
+  hebrew: אילייאס
 
 - latin: ermano
   hebrew: ארמנו
