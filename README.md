@@ -10,6 +10,7 @@ An implementation of a transcriber for Ladino text between latin letter ortograp
 * Write a two-way converter in JavaScript using the YAML file as test cases.
 * Write a two-way converter in Python using the YAML file as test cases.
 
+* [Rashi script](https://en.wikipedia.org/wiki/Rashi_script)
 
 ## Development Environment
 
