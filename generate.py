@@ -2,7 +2,7 @@ import yaml
 import os
 
 def main():
-    file = 'words.yaml'
+    file = 'words_2.yaml'
     with open(file) as fh:
         words = yaml.safe_load(fh)
     with open('templates/header.html') as fh:
