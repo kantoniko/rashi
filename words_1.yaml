@@ -1,102 +1,102 @@
 - latin: yo
-  hebrew: ייו
+  rashi: ייו
 - latin: tu
-  hebrew: טו
+  rashi: טו
 - latin: el
-  hebrew: איל
+  rashi: איל
 - latin: eya
-  hebrew: אילייה
+  rashi: אילייה
 - latin: mozotros
-  hebrew: מוזוטרוס
+  rashi: מוזוטרוס
 - latin: mozotras
-  hebrew: מוזוטראס
+  rashi: מוזוטראס
 - latin: vozotros
-  hebrew: בﬞוזוטרוס
+  rashi: בﬞוזוטרוס
   comment: there should be a line a top the leading ב
 - latin: vozotras
-  hebrew: בﬞוזוטראס
+  rashi: בﬞוזוטראס
   comment: there should be a line a top the leading ב
 - latin: eyos
-  hebrew: אילייוס
+  rashi: אילייוס
 - latin: eyas
-  hebrew: אילייאס
+  rashi: אילייאס
 
 - latin: ermano
-  hebrew: אירמאנו
+  rashi: אירמאנו
 - latin: abashar
-  hebrew: אבאשאר
+  rashi: אבאשאר
 - latin: madre
-  hebrew: מאדרי
+  rashi: מאדרי
 - latin: padre
-  hebrew: פאדרי
+  rashi: פאדרי
 - latin: ama
-  hebrew: אמה
+  rashi: אמה
 - latin: altura
-  hebrew: אלטורה
+  rashi: אלטורה
 - latin: arriva
-  hebrew: אריבﬞה
+  rashi: אריבﬞה
   comment: there should be a line a top the ב
   comment: In Rashi there is only on r
 - latin: aire
-  hebrew: איירה
+  rashi: איירה
   commment: We also have ayre, but Perez only has aire
 - latin: bagaje
-  hebrew: באגאזﬞי
+  rashi: באגאזﬞי
   comment: there should be a line a top the ז
 - latin: balabay
-  hebrew: באלאבאיי
+  rashi: באלאבאיי
 - latin: barka
-  hebrew: בארקה
+  rashi: בארקה
 - latin: barko
-  hebrew: בארקו
+  rashi: בארקו
 - latin: baylador
-  hebrew: באיילאדור
+  rashi: באיילאדור
 - latin: dado
-  hebrew: דאדו
+  rashi: דאדו
 - latin: dedo
-  hebrew: דידו
+  rashi: דידו
 - latin: dedos
-  hebrew: דידוס
+  rashi: דידוס
 - latin: elevo
-  hebrew: איליבﬞו
+  rashi: איליבﬞו
   comment: there should be a line a top the ב
 - latin: enkontro
-  hebrew: אינקונטרו
+  rashi: אינקונטרו
 - latin: echar
-  hebrew: איגﬞאר
+  rashi: איגﬞאר
   comment: there should be a line a top the ג
 - latin: chay
-  hebrew: גﬞאיי
+  rashi: גﬞאיי
   comment: there should be a line a top the ג
 - latin: charshi
-  hebrew: גארשי
+  rashi: גארשי
 - latin: deskorajar
-  hebrew: דיסקוראזﬞאר
+  rashi: דיסקוראזﬞאר
   comment: there should be a line a top the ז
 - latin: faltar
-  hebrew: פﬞאלטאר
+  rashi: פﬞאלטאר
   comment: there should be a line a top the פ
 - latin: familiar
-  hebrew: פﬞאמיליאר
+  rashi: פﬞאמיליאר
   comment: there should be a line a top the פ
 - latin: famoza
-  hebrew: פﬞאמוזה
+  rashi: פﬞאמוזה
   comment: there should be a line a top the פ
 - latin: gato
-  hebrew: גאטו
+  rashi: גאטו
 - latin: gaya
-  hebrew: גאייה
+  rashi: גאייה
 - latin: haham
-  hebrew: האהאם
+  rashi: האהאם
 - latin: haftona
-  hebrew: האפﬞטונה
+  rashi: האפﬞטונה
   comment: there should be a line a top the פ
 - latin: haverim
-  hebrew: האבﬞירים
+  rashi: האבﬞירים
   comment: there should be a line a top the ב
 - latin: igual
-  hebrew: איגואל
+  rashi: איגואל
 - latin: imaje
-  hebrew: אימאזﬞי
+  rashi: אימאזﬞי
   comment: there should be a line a top the ז
 

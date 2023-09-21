@@ -18,7 +18,7 @@ def main():
       """
 
     for word in words:
-        html += f"""<tr><td><a href="https://kantoniko.com/words/ladino/{word['latin']}">{word['latin']}</a></td><td class="rashi" dir="rtl">{word['hebrew']}</td><td dir="rtl">{word['hebrew']}</td></tr>\n"""
+        html += f"""<tr><td><a href="https://kantoniko.com/words/ladino/{word['latin']}">{word['latin']}</a></td><td class="rashi" dir="rtl">{word['rashi']}</td><td dir="rtl">{word['rashi']}</td></tr>\n"""
     html += "</table>\n"
 
 
