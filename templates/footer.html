@@ -1,5 +1,41 @@
       </div>
     </section>
 
+    <section id="main-section" class="section">
+      <div class="container">
+      <input class="input" type="text" placeholder="רַשִׁ''י" id="input" width="300px">
+      <div id="buttons" dir="rtl">
+          BUTTONS
+      </div>
+      <div id="output" class="rashi" dir="rtl"></div>
+      </div>
+    </section>
+
   </body>
 </html>
+
+<style>
+#output {
+    font-size: 32px;
+}
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+    function show() {
+        let text = $('#input').val();
+        //console.log(text);
+        $('#output').html(text);
+    }
+
+    $('#input').bind("input", function () {
+        show();
+    });
+
+    $('.letter').click(function(event) {
+        //console.log($(this).text());
+        $('#input').val($('#input').val() + $(this).text());
+        show();
+    })
+});
+</script>
