@@ -1,0 +1,20 @@
+{% include 'incl/header.html' %}
+
+    <section id="main-section" class="section">
+      <div class="container">
+
+      <table class="table is-striped is-hoverable">
+        <thead>
+          <tr><th>Latin</th><th>Rashi</th><th>Square</th></tr>
+        </thead>
+        {% for word in words %}
+          <tr><td><a href="https://kantoniko.com/words/ladino/{{ word['latin'] }}">{{ word['latin'] }}</a></td><td class="rashi" dir="rtl">{{ word['rashi'] }}</td><td dir="rtl">{{ word['rashi'] }}</td></tr>
+        {% endfor %}
+      </table>
+
+      </div>
+    </section>
+
+{% include 'incl/footer.html' %}
+
+

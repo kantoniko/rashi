@@ -1,5 +1,7 @@
 import yaml
 import os
+import glob
+
 from jinja2 import Environment, FileSystemLoader
 
 
@@ -49,26 +51,14 @@ def main():
     for letter in letters:
         buttons += f"""<button class="button letter rashi">{letter}</button>"""
 
-    render("index.html", "index.html", buttons=buttons)
+    render(template="editor.html", filename="index.html", buttons=buttons)
 
-    #    #html = create_table()
-    #    #fh.write(html)
+    for filename in glob.glob("words-*.yaml"):
+        name = filename[0:-5]
+        with open(filename) as fh:
+            words = yaml.safe_load(fh)
+        render(template="words.html", filename=f"{name}.html", words=words)
 
-def create_table():
-    file = 'words_2.yaml'
-    with open(file) as fh:
-        words = yaml.safe_load(fh)
-    html = """
-      <table class="table is-striped is-hoverable">
-      <thead>
-        <tr><th>Latin</th><th>Rashi</th><th>Square</th></tr>
-      </thead>
-      """
-
-    for word in words:
-        html += f"""<tr><td><a href="https://kantoniko.com/words/ladino/{word['latin']}">{word['latin']}</a></td><td class="rashi" dir="rtl">{word['rashi']}</td><td dir="rtl">{word['rashi']}</td></tr>\n"""
-    html += "</table>\n"
-    return html
 
 def render(template, filename=None, **args):
     root = os.path.dirname(os.path.abspath(__file__))
